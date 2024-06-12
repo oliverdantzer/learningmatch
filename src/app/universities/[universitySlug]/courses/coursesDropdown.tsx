@@ -13,19 +13,40 @@ export function FacultyDropdown({
   faculty: string;
   courses: Course[];
 }) {
-  console.log(typeof courses);
+  const [inputValue, setInputValue] = useState("");
   const [isOpen, setIsOpen] = useState(false);
+  const [filteredCourses, setFilteredCourses] = useState(courses);
+  function updateSearch(input: string) {
+    setInputValue(input);
+    setFilteredCourses(
+      courses.filter((course: Course) => {
+        return (
+          course.code.toLowerCase().includes(input.toLowerCase()) ||
+          course.title.toLowerCase().includes(input.toLowerCase())
+        );
+      })
+    );
+  }
   return (
     <div className="w-full">
-      <div
-        className="w-full p-6 bg-brand-light text-brand-white flex gap-2 items-center hover:cursor-pointer"
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        {faculty} <span>{isOpen ? <FaChevronUp /> : <FaChevronDown />}</span>
+      <div className="w-full bg-brand-light text-brand-white flex gap-4 items-center hover:cursor-pointer">
+        <div className="flex gap-2 p-6 " onClick={() => setIsOpen(!isOpen)}>
+          {faculty} <span>{isOpen ? <FaChevronUp /> : <FaChevronDown />}</span>
+        </div>
+        <div>
+          <input
+            type="text"
+            value={inputValue}
+            onChange={(e) => updateSearch(e.target.value)}
+            className="p-2 border-2 w-full border-gray-300 rounded-md text-brand-black"
+            placeholder="Enter a course code or name here..."
+            onFocus={() => setIsOpen(true)}
+          ></input>
+        </div>
       </div>
       {isOpen && (
         <ul className="grid grid-cols-3 gap-4">
-          {courses.map((course: Course, index) => {
+          {filteredCourses.map((course: Course, index) => {
             return (
               <li key={index}>
                 <CourseButton course={course} />
@@ -70,7 +91,7 @@ function CourseButton({ course }: { course: Course }) {
       )}
       <Link
         className="p-2 border-2 border-brand-white"
-        href={"/universities/queens/courses/CISC-204"}
+        href={`/universities/queens/courses/${course.code}`}
       >
         <div>User reviews</div>
       </Link>

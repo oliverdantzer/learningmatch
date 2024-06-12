@@ -9,10 +9,10 @@ export default function Layout({
   params,
 }: {
   children: ReactNode;
-  params: { slug: string };
+  params: { universitySlug: string };
 }) {
   const university = universities.find(
-    (university) => university.id === params.slug
+    (university) => university.id === params.universitySlug
   );
   if (!university) notFound();
   return (
@@ -20,7 +20,7 @@ export default function Layout({
       <div className="h-56 overflow-hidden relative">
         <div className="relative blur-sm w-[110%] h-[110%]">
           <Image
-            src={`/university-bgs/${params.slug}.webp`}
+            src={`/university-bgs/${params.universitySlug}.webp`}
             alt={`Logo of ${university.name}`}
             className="object-cover"
             fill
@@ -31,7 +31,7 @@ export default function Layout({
             <div className="w-32 h-32 p-4 bg-brand-white shadow-xl">
               <div className="relative w-full h-full">
                 <Image
-                  src={`/university-logos/${params.slug}.png`}
+                  src={`/university-logos/${params.universitySlug}.png`}
                   alt={`Logo of ${university.name}`}
                   className="object-contain"
                   fill
@@ -49,29 +49,19 @@ export default function Layout({
         <nav className="bg-brand-light text-brand-white py-4 w-56 h-full">
           <ul className="flex flex-col p-4 font-bold gap-4">
             <li>
-              <Link href={`/universities/${params.slug}`}>Overview</Link>
+              <Link href={`/universities/${params.universitySlug}`}>Overview</Link>
             </li>
             <li>
-              <Link href={`/universities/${params.slug}/programs`}>
+              <Link href={`/universities/${params.universitySlug}/programs`}>
                 Programs
               </Link>
             </li>
             <li>
-              <Link href={`/universities/${params.slug}/courses`}>Courses</Link>
+              <Link href={`/universities/${params.universitySlug}/courses`}>Courses</Link>
             </li>
             <li>
-              <Link href={`/universities/${params.slug}/professors`}>
+              <Link href={`/universities/${params.universitySlug}/professors`}>
                 Professors
-              </Link>
-            </li>
-            <li>
-              <Link href={`/universities/${params.slug}/residences`}>
-                Residences
-              </Link>
-            </li>
-            <li>
-              <Link href={`/universities/${params.slug}/resources`}>
-                Resources
               </Link>
             </li>
           </ul>
