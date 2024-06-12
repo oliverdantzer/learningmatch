@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Bram Adams",
+        "image": "https://www.cs.queensu.ca/people/images/user/108.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Selim Akl",
+        "image": "https://www.cs.queensu.ca/people/images/user/1.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Furkan Alaca",
+        "image": "https://www.cs.queensu.ca/people/images/user/267.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Dorothea Blostein",
+        "image": "https://www.cs.queensu.ca/people/images/user/4.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Yuanzhu Chen",
+        "image": "https://www.cs.queensu.ca/people/images/user/293.jpg",
+        "title": "Professor / Undergraduate Chair"
+    },
+    {
+        "name": "Salimur Choudhury",
+        "image": "https://www.cs.queensu.ca/people/images/user/186.png",
+        "title": "Associate Professor"
+    },
+    {
+        "name": "Juergen Dingel",
+        "image": "https://www.cs.queensu.ca/people/images/user/8.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Qingling Duan",
+        "image": "https://www.cs.queensu.ca/people/images/user/195.jpg",
+        "title": "Associate Professor / Queen's National Scholar in Bioinformatics"
+    },
+    {
+        "name": "Jana Dunfield",
+        "image": "https://www.cs.queensu.ca/people/images/user/219.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Randy Ellis",
+        "image": "https://www.cs.queensu.ca/people/images/user/10.jpg",
+        "title": "Professor / Queen's Research Chair in Computer-Assisted Surgery"
+    },
+    {
+        "name": "Hesham ElSawy",
+        "image": "https://www.cs.queensu.ca/people/images/user/306.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Gabor Fichtinger",
+        "image": "https://www.cs.queensu.ca/people/images/user/65.jpg",
+        "title": "Professor / Canada Research Chair (Tier 1) in Computer-Integrated Surgery"
+    },
+    {
+        "name": "Sidney Givigi",
+        "image": "https://www.cs.queensu.ca/people/images/user/253.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Nick Graham",
+        "image": "https://www.cs.queensu.ca/people/images/user/12.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Ahmed E. Hassan",
+        "image": "https://www.cs.queensu.ca/people/images/user/47.jpg",
+        "title": "Professor / Canada Research Chair (Tier 2) in Software Analytics / NSERC RIM Software Engineering"
+    },
+    {
+        "name": "Hossam Hassanein",
+        "image": "https://www.cs.queensu.ca/people/images/user/13.jpg",
+        "title": "Professor and Director"
+    },
+    {
+        "name": "Anwar Hossain",
+        "image": "https://www.cs.queensu.ca/people/images/user/310.jpg",
+        "title": "Associate Professor"
+    },
+    {
+        "name": "Ting Hu",
+        "image": "https://www.cs.queensu.ca/people/images/user/256.jpg",
+        "title": "Associate Professor"
+    },
+    {
+        "name": "Richard Linley",
+        "image": "https://www.cs.queensu.ca/people/images/user/51.jpg",
+        "title": "Lecturer, Continuing"
+    },
+    {
+        "name": "Burton Ma",
+        "image": "https://www.cs.queensu.ca/people/images/user/126.jpg",
+        "title": "Associate Professor"
+    },
+    {
+        "name": "Erin Meger",
+        "image": "https://www.cs.queensu.ca/people/images/user/308.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Parvin Mousavi",
+        "image": "https://www.cs.queensu.ca/people/images/user/17.jpg",
+        "title": "Professor / Canada CIFAR AI Chair, Vector Institute"
+    },
+    {
+        "name": "Christian Muise",
+        "image": "https://www.cs.queensu.ca/people/images/user/257.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Sara Nabil",
+        "image": "https://www.cs.queensu.ca/people/images/user/268.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Wendy Powley",
+        "image": "https://www.cs.queensu.ca/people/images/user/55.jpg",
+        "title": "Associate Professor"
+    },
+    {
+        "name": "Kai Salomaa",
+        "image": "https://www.cs.queensu.ca/people/images/user/22.jpg",
+        "title": "Professor / Graduate Chair"
+    },
+    {
+        "name": "Amber Simpson",
+        "image": "https://www.cs.queensu.ca/people/images/user/260.jpg",
+        "title": "Associate Professor / Canada Research Chair (Tier 2) in Biomedical Computing and Informatics"
+    },
+    {
+        "name": "David Skillicorn",
+        "image": "https://www.cs.queensu.ca/people/images/user/24.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "James Stewart",
+        "image": "https://www.cs.queensu.ca/people/images/user/28.jpg",
+        "title": "Professor "
+    },
+    {
+        "name": "Catherine Stinson",
+        "image": "https://www.cs.queensu.ca/people/images/user/269.jpg",
+        "title": "Assistant Professor / Queen\u2019s National Scholar in Philosophical Implications of Artificial Intelligence"
+    },
+    {
+        "name": "Yuan Tian",
+        "image": "https://www.cs.queensu.ca/people/images/user/243.jpg",
+        "title": "Assistant Professor"
+    },
+    {
+        "name": "Farhana Zulkernine",
+        "image": "https://www.cs.queensu.ca/people/images/user/136.jpg",
+        "title": "Professor"
+    },
+    {
+        "name": "Mohammad Zulkernine",
+        "image": "https://www.cs.queensu.ca/people/images/user/18.jpg",
+        "title": "Professor / Director of Queen\u2019s Centre for Security & Privacy / Tier 1 Canada Research Chair in Cyber-Physical System Security"
+    }
+]
