@@ -1,13 +1,53 @@
 [
     {
-        "code": "CISC 101",
-        "title": "Introduction to Computer Programming",
-        "description": "Introduction to algorithms: their definition, design, coding, and execution on computers. Intended for students who have no programming experience. ",
+        "code": "CISC 467",
+        "title": "Fuzzy Logic",
+        "description": "History of fuzzy theory; fundamental concepts of fuzzy theory: sets, relations, and logic operators. Approximate reasoning, fuzzy inference, possibility theory. Separation from probability. Fuzzy control systems. Fuzzy pattern recognition. Advanced topics may include fuzzy expert systems, financial systems, graph theory, optimization. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 432",
+        "title": "Advanced Data Management Systems",
+        "description": "Storage and representation of \"big data\", which are large, complex, structured or unstructured data sets. Provenance, curation, integration, indexing and querying of data. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 447",
+        "title": "Introduction to Cybersecurity",
+        "description": "An introduction to cybersecurity covering a wide range of vulnerabilities, attacks, and defense mechanisms in individual computers, networks, the Internet and the Web and applications that use them, and storage and computational clouds. The human side of cybersecurity, and the legal and ethical constraints on both attack and defense. ",
         "terms": [
-            "fall",
+            "fall"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 352",
+        "title": "Artificial Intelligence",
+        "description": "An introduction to the basic principles and tools of artificial intelligence. Problem solving methods and knowledge representation techniques. ",
+        "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-101"
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 251",
+        "title": "Data Analytics",
+        "description": "Introduction to data analytics; data preparation; assessing performance; prediction methods such as decision trees, random forests, support vector machines, neural networks and rules; ensemble methods such as bagging and boosting; clustering techniques such as expectation-maximization, matrix decompositions, and bi-clustering; attribute selection. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 423",
+        "title": "Software Requirements",
+        "description": "An integrated approach to discovering and documenting software requirements. Identification of stakeholders; customer, operator, analyst, and developer perspectives. Requirements elicitation. Transition from initial (informal) requirements to semi-formal and formal representations. Requirements analysis process; analysis patterns. Requirements specification techniques. Relation to architecture and user interface design; traceability of requirements. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
     },
     {
         "code": "CISC 102",
@@ -17,25 +57,151 @@
             "fall",
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-102"
+        "prerequisites": []
     },
     {
-        "code": "CISC 110",
-        "title": "Creative Computing",
-        "description": "Introduction to fundamental programming concepts in the context of visual, interactive media. Students may develop applications in any domain (e.g., fine art, education, commerce, physical or social sciences) while learning about algorithms, program design, logic, program control flow, functions, testing, etc. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-110"
+        "code": "CISC 226",
+        "title": "Game Design",
+        "description": "An introduction to techniques for designing elementary computer games. Topics will include game development tools and processes, principles of game design, game prototyping and game evaluation. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
     },
     {
-        "code": "CISC 121",
-        "title": "Introduction to Computing Science I",
-        "description": "Introduction to design, analysis, and implementation of algorithms. Recursion, backtracking, and exits. Linear data structures (stacks and queues). Elementary searching and sorting. Order-of-magnitude complexity. Documentation, iterative program development, translating natural language to code, testing and debugging. ",
+        "code": "CISC 330",
+        "title": "Computer-Integrated Surgery",
+        "description": "Concepts of computer-integrated surgery systems and underlying techniques such as medical-image computing, robotics, and virtual reality, learned through real-life applications and problems. Techniques learned in class will be applied in a hands-on surgery session where students perform minimally invasive surgery with virtual-reality navigation tools. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 332",
+        "title": "Database Management Systems",
+        "description": "Data models: relational, entity-relationship. Relational query languages: relational algebra and\u00a0SQL. Relational database design. Application interfaces and embedded SQL. Storage and indexing. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 326",
+        "title": "Game Architecture",
+        "description": "An introduction to software architectural design through the application domain of game development. Abstractions and patterns of interactions and relationships among modules. Design recovery. Relationship to requirements and testing ",
         "terms": [
             "fall",
-            "winter",
-            "summer"
+            "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-121"
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 468",
+        "title": "Cryptography",
+        "description": "Fundamentals of cryptographic algorithms: secure pseudorandom number generators, hash functions, symmetric-key cryptography (stream ciphers, block ciphers); public-key cryptography (encryption and decryption, digital signatures, key agreement). Applications of cryptography to secure communication protocols and systems. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 204",
+        "title": "Logic for Computing Science",
+        "description": "Elements of mathematical logic with computing applications. Formal proof systems for propositional and predicate logic. Interpretations, validity, and satisfiability. Introduction to soundness, completeness and decidability. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "COGS 499",
+        "title": "Advanced Undergraduate Project",
+        "description": "Topic selected under the supervision of a faculty member from CISC, LING, PHIL, or PSYC. Emphasis may be on experimental, theoretical, or computer implementation. Independent research, an oral presentation, and a written report are required. The student must make a project proposal and secure a supervisor prior to enrolling in the course. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 351",
+        "title": "Advanced Data Analytics",
+        "description": "Design and implementation of complex analytics techniques; predictive algorithms at scale; deep learning; clustering at scale; advanced matrix decompositions, analytics in the Web, collaborative filtering; social network analysis; applications in specialized domains. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 472",
+        "title": "Medical Informatics",
+        "description": "Current topics in the application of information technology to medical image computing and its use in image-guided medical interventions. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 340",
+        "title": "Digital Systems",
+        "description": "Combinational circuits; sequential circuits; digital systems design; micro-programming; bus structures; data communications; interface design; microprocessor systems. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 492",
+        "title": "Topics in Computing III",
+        "description": "Content varies. Not offered every year. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 497",
+        "title": "Social, Ethical and Legal Issues in Computing",
+        "description": "A wide range of topics of current importance in\u00a0computing, including technical issues,\u00a0professional questions, and moral and ethical decisions. Students make presentations, deliver papers, and engage in discussion. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 434",
+        "title": "Distributed Systems",
+        "description": "Distributed systems goals, characteristics, and architectures. Processes: models, inter-process communication and coordination. Name services. Consistency and replication. Fault tolerance: design for reliable communication and recovery. Security. Development paradigms based on data types: object, file, and web-based systems. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 491",
+        "title": "Topics in Computing Science II",
+        "description": "Content varies. Not offered every year. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 465",
+        "title": "Semantics of Programming Languages",
+        "description": "Specifying syntax and semantics; operational and denotational semantics. Lambda calculi, type systems and logical foundations. Meta-theoretic properties. Semantics of imperative languages. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 474",
+        "title": "Reinforcement Learning",
+        "description": "Formal and heuristic approaches to problem-solving, planning, knowledge representation and reasoning, Markov decision processes, dynamic programming, temporal-difference learning, Monte Carlo learning, function approximation, integration of learning and planning. Implementing simple examples of logical reasoning, clustering or classification. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 473",
+        "title": "Deep Learning",
+        "description": "Design of deep neural networks based on leading-edge algorithms such as Restricted Boltzmann Machines, Recurrent Neural Networks, Convolutional Neural Networks, Long-Short Term Machines. Autoencoding as a clustering technique. Applications to prediction problems in natural language and images. ",
+        "terms": [],
+        "prerequisites": []
     },
     {
         "code": "CISC 124",
@@ -46,228 +212,7 @@
             "winter",
             "summer"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-124"
-    },
-    {
-        "code": "CISC 151",
-        "title": "Elements of Computing with Data Analytics",
-        "description": "Introduction to algorithms: their definition, design, coding, and execution on computers, with applications drawn from data analytics, including simple prediction and clustering. Intended for students who have no programming experience. All or most assignment work will be completed during lab time. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-151"
-    },
-    {
-        "code": "CISC 181",
-        "title": "Digital Societies",
-        "description": "This introductory course provides a broad overview and ethical implications of technological topics and trends in the digital world such as the Internet of Things (IoT), Social Networks, Security and Privacy, Data Analytics, and Artificial Intelligence (AI). No programming experience is required. ",
-        "terms": [
-            "summer"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-181"
-    },
-    {
-        "code": "CISC 203",
-        "title": "Discrete Mathematics for Computing II",
-        "description": "Proof methods. Combinatorics: permutations and combinations, discrete probability, recurrence relations. Graphs and trees. Boolean and abstract algebra. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-203"
-    },
-    {
-        "code": "CISC 204",
-        "title": "Logic for Computing Science",
-        "description": "Elements of mathematical logic with computing applications. Formal proof systems for propositional and predicate logic. Interpretations, validity, and satisfiability. Introduction to soundness, completeness and decidability. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-204"
-    },
-    {
-        "code": "CISC 220",
-        "title": "System Level Programming",
-        "description": "Basic concepts of Unix-like systems. Shells and scripting. System-level programming in the C language. Software development tools and techniques. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-220"
-    },
-    {
-        "code": "CISC 221",
-        "title": "Computer Architecture",
-        "description": "The descriptive levels of computer architecture. Instruction-set architectures. Assembly Language. Data representation. Support for operating-system management and high-level languages. Input/output and interrupts. Designing for performance. Digital Logic. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-221"
-    },
-    {
-        "code": "CISC 223",
-        "title": "Software Specifications",
-        "description": "Introduction to techniques for specifying the behaviour of software, with applications of these techniques to design, verification and construction of software. Logic-based techniques such as loop invariants and class invariants. Automata and grammar-based techniques, with applications to scanners, parsers, user-interface dialogs and embedded systems. Computability issues in software specifications. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-223"
-    },
-    {
-        "code": "CISC 226",
-        "title": "Game Design",
-        "description": "An introduction to techniques for designing elementary computer games. Topics will include game development tools and processes, principles of game design, game prototyping and game evaluation. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-226"
-    },
-    {
-        "code": "CISC 235",
-        "title": "Data Structures",
-        "description": "Design and implementation of advanced data structures and related algorithms, including correctness and complexity analysis. Tradeoffs among alternative implementations of a module interface. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-235"
-    },
-    {
-        "code": "CISC 251",
-        "title": "Data Analytics",
-        "description": "Introduction to data analytics; data preparation; assessing performance; prediction methods such as decision trees, random forests, support vector machines, neural networks and rules; ensemble methods such as bagging and boosting; clustering techniques such as expectation-maximization, matrix decompositions, and bi-clustering; attribute selection. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-251"
-    },
-    {
-        "code": "CISC 271",
-        "title": "Linear Data Analysis",
-        "description": "Elements of linear algebra for data analysis, including: solution of linear equations; vector spaces; matrix decompositions; principal components analysis; linear regression; hyperplane classification of vectorial data. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-271"
-    },
-    {
-        "code": "CISC 282",
-        "title": "Fundamentals of Web Development",
-        "description": "This course surveys current best practices for implementing attractive, usable, secure and maintainable web applications. Other issues considered include: accessibility, platform and browser independence, licensing of intellectual property, scalability, user privacy, and using web technologies in mobile development. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-282"
-    },
-    {
-        "code": "CISC 320",
-        "title": "Fundamentals of Software Development",
-        "description": "Introduction to management of small and medium-scale software projects. Advanced programming methodology using the programming language C++. Includes a significant programming project. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-320"
-    },
-    {
-        "code": "CISC 322",
-        "title": "Software Architecture",
-        "description": "Abstractions and patterns of interactions and relationships among modules. Design recovery; relationship of architecture to requirements and testing. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-322"
-    },
-    {
-        "code": "CISC 324",
-        "title": "Operating Systems",
-        "description": "Layered operating systems for conventional shared memory computers: concurrent processes. Synchronization and communication. Concurrent algorithms. Scheduling. Deadlock. Memory management. Protection. File systems. Device management. Typical layers. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-324"
-    },
-    {
-        "code": "CISC 325",
-        "title": "Human-Computer Interaction",
-        "description": "Developing usable software requires that human factors be considered throughout the design and development process. This course introduces a series of techniques for development and evaluating usable software, and shows how these techniques can be integrated into a process for software development. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-325"
-    },
-    {
-        "code": "CISC 326",
-        "title": "Game Architecture",
-        "description": "An introduction to software architectural design through the application domain of game development. Abstractions and patterns of interactions and relationships among modules. Design recovery. Relationship to requirements and testing ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-326"
-    },
-    {
-        "code": "CISC 327",
-        "title": "Software Quality Assurance",
-        "description": "Validation of software throughout the life cycle. Comparative effectiveness in defect removal of formal methods (proofs of correctness), inspection (walkthroughs and reviews), and testing (unit, integration, and system testing; white box versus black box). ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-327"
-    },
-    {
-        "code": "CISC 330",
-        "title": "Computer-Integrated Surgery",
-        "description": "Concepts of computer-integrated surgery systems and underlying techniques such as medical-image computing, robotics, and virtual reality, learned through real-life applications and problems. Techniques learned in class will be applied in a hands-on surgery session where students perform minimally invasive surgery with virtual-reality navigation tools. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-330"
-    },
-    {
-        "code": "CISC 332",
-        "title": "Database Management Systems",
-        "description": "Data models: relational, entity-relationship. Relational query languages: relational algebra and\u00a0SQL. Relational database design. Application interfaces and embedded SQL. Storage and indexing. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-332"
-    },
-    {
-        "code": "CISC 335",
-        "title": "Computer Networks",
-        "description": "Fundamental concepts in the design and implementation of computer communication networks, protocols, and applications.\u00a0Overview of network architectures; applications; network programming interfaces (e.g., sockets); transport; congestion; routing and data link protocols; addressing; local area networks; wireless networks, mobility management;\u00a0security. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-335"
-    },
-    {
-        "code": "CISC 340",
-        "title": "Digital Systems",
-        "description": "Combinational circuits; sequential circuits; digital systems design; micro-programming; bus structures; data communications; interface design; microprocessor systems. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-340"
-    },
-    {
-        "code": "CISC 351",
-        "title": "Advanced Data Analytics",
-        "description": "Design and implementation of complex analytics techniques; predictive algorithms at scale; deep learning; clustering at scale; advanced matrix decompositions, analytics in the Web, collaborative filtering; social network analysis; applications in specialized domains. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-351"
-    },
-    {
-        "code": "CISC 352",
-        "title": "Artificial Intelligence",
-        "description": "An introduction to the basic principles and tools of artificial intelligence. Problem solving methods and knowledge representation techniques. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-352"
+        "prerequisites": []
     },
     {
         "code": "CISC 360",
@@ -277,7 +222,131 @@
             "fall",
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-360"
+        "prerequisites": [
+            "CISC-124",
+            "CISC-204"
+        ]
+    },
+    {
+        "code": "CISC 322",
+        "title": "Software Architecture",
+        "description": "Abstractions and patterns of interactions and relationships among modules. Design recovery; relationship of architecture to requirements and testing. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-223",
+            "CISC-235"
+        ]
+    },
+    {
+        "code": "CISC 223",
+        "title": "Software Specifications",
+        "description": "Introduction to techniques for specifying the behaviour of software, with applications of these techniques to design, verification and construction of software. Logic-based techniques such as loop invariants and class invariants. Automata and grammar-based techniques, with applications to scanners, parsers, user-interface dialogs and embedded systems. Computability issues in software specifications. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-124",
+            "CISC-204"
+        ]
+    },
+    {
+        "code": "CISC 422",
+        "title": "Formal Methods in Software Engineering",
+        "description": "Mathematical methods for describing software behaviour and structure. Topics include (but are not limited to) the following: Requirements specification. Module specification: axiomatic, algebraic, and trace specifications. Abstract models. Verification. Specification-based validation. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-223"
+        ]
+    },
+    {
+        "code": "CISC 221",
+        "title": "Computer Architecture",
+        "description": "The descriptive levels of computer architecture. Instruction-set architectures. Assembly Language. Data representation. Support for operating-system management and high-level languages. Input/output and interrupts. Designing for performance. Digital Logic. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-124"
+        ]
+    },
+    {
+        "code": "CISC 101",
+        "title": "Introduction to Computer Programming",
+        "description": "Introduction to algorithms: their definition, design, coding, and execution on computers. Intended for students who have no programming experience. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 371",
+        "title": "Nonlinear Data Analysis",
+        "description": "Methods for nonlinear data analysis, particularly using numerical optimization. Applications may include: unconstrained data optimization; linear equality constraints; constrained data regression; constrained data classification; evaluating the effectiveness of analysis methods. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-271",
+            "STAT-263"
+        ]
+    },
+    {
+        "code": "CISC 426",
+        "title": "Real-Time Systems",
+        "description": "Design and implementation of real-time embedded applications. Specifying timing properties: formal and semi-formal methods; soft real-time versus hard real-time. Design notations; language constructs. Real-time operating systems. Abstract device interfaces. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-324",
+            "CISC-327"
+        ]
+    },
+    {
+        "code": "CISC 235",
+        "title": "Data Structures",
+        "description": "Design and implementation of advanced data structures and related algorithms, including correctness and complexity analysis. Tradeoffs among alternative implementations of a module interface. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-124",
+            "CISC-203"
+        ]
+    },
+    {
+        "code": "CISC 324",
+        "title": "Operating Systems",
+        "description": "Layered operating systems for conventional shared memory computers: concurrent processes. Synchronization and communication. Concurrent algorithms. Scheduling. Deadlock. Memory management. Protection. File systems. Device management. Typical layers. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-221",
+            "CISC-235"
+        ]
+    },
+    {
+        "code": "CISC 203",
+        "title": "Discrete Mathematics for Computing II",
+        "description": "Proof methods. Combinatorics: permutations and combinations, discrete probability, recurrence relations. Graphs and trees. Boolean and abstract algebra. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-121",
+            "CISC-102",
+            "MATH-110"
+        ]
     },
     {
         "code": "CISC 365",
@@ -287,16 +356,96 @@
             "fall",
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-365"
+        "prerequisites": [
+            "CISC-203",
+            "CISC-204",
+            "CISC-235"
+        ]
     },
     {
-        "code": "CISC 371",
-        "title": "Nonlinear Data Analysis",
-        "description": "Methods for nonlinear data analysis, particularly using numerical optimization. Applications may include: unconstrained data optimization; linear equality constraints; constrained data regression; constrained data classification; evaluating the effectiveness of analysis methods. ",
+        "code": "CISC 220",
+        "title": "System Level Programming",
+        "description": "Basic concepts of Unix-like systems. Shells and scripting. System-level programming in the C language. Software development tools and techniques. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-121"
+        ]
+    },
+    {
+        "code": "CISC 271",
+        "title": "Linear Data Analysis",
+        "description": "Elements of linear algebra for data analysis, including: solution of linear equations; vector spaces; matrix decompositions; principal components analysis; linear regression; hyperplane classification of vectorial data. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-101",
+            "CISC-110",
+            "CISC-151",
+            "CISC-121",
+            "MATH-110",
+            "MATH-111",
+            "MATH-112",
+            "MATH-120",
+            "MATH-121",
+            "MATH-123",
+            "MATH-124",
+            "MATH-126"
+        ]
+    },
+    {
+        "code": "CISC 425",
+        "title": "Advanced User Interface Design",
+        "description": "Advanced user-interface styles such as eye-tracking input, digital desks, wearable computing, ubiquitous and context-aware computing, and tangible interfaces. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-325"
+        ]
+    },
+    {
+        "code": "CISC 325",
+        "title": "Human-Computer Interaction",
+        "description": "Developing usable software requires that human factors be considered throughout the design and development process. This course introduces a series of techniques for development and evaluating usable software, and shows how these techniques can be integrated into a process for software development. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-124",
+            "CISC-235"
+        ]
+    },
+    {
+        "code": "CISC 110",
+        "title": "Creative Computing",
+        "description": "Introduction to fundamental programming concepts in the context of visual, interactive media. Students may develop applications in any domain (e.g., fine art, education, commerce, physical or social sciences) while learning about algorithms, program design, logic, program control flow, functions, testing, etc. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 327",
+        "title": "Software Quality Assurance",
+        "description": "Validation of software throughout the life cycle. Comparative effectiveness in defect removal of formal methods (proofs of correctness), inspection (walkthroughs and reviews), and testing (unit, integration, and system testing; white box versus black box). ",
         "terms": [
             "fall"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-371"
+        "prerequisites": [
+            "CISC-220",
+            "CISC-124"
+        ]
+    },
+    {
+        "code": "CISC 320",
+        "title": "Fundamentals of Software Development",
+        "description": "Introduction to management of small and medium-scale software projects. Advanced programming methodology using the programming language C++. Includes a significant programming project. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-235"
+        ]
     },
     {
         "code": "CISC 372",
@@ -305,85 +454,29 @@
         "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-372"
+        "prerequisites": [
+            "CISC-271"
+        ]
     },
     {
-        "code": "CISC 422",
-        "title": "Formal Methods in Software Engineering",
-        "description": "Mathematical methods for describing software behaviour and structure. Topics include (but are not limited to) the following: Requirements specification. Module specification: axiomatic, algebraic, and trace specifications. Abstract models. Verification. Specification-based validation. ",
+        "code": "CISC 181",
+        "title": "Digital Societies",
+        "description": "This introductory course provides a broad overview and ethical implications of technological topics and trends in the digital world such as the Internet of Things (IoT), Social Networks, Security and Privacy, Data Analytics, and Artificial Intelligence (AI). No programming experience is required. ",
         "terms": [
-            "fall"
+            "summer"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-422"
+        "prerequisites": []
     },
     {
-        "code": "CISC 423",
-        "title": "Software Requirements",
-        "description": "An integrated approach to discovering and documenting software requirements. Identification of stakeholders; customer, operator, analyst, and developer perspectives. Requirements elicitation. Transition from initial (informal) requirements to semi-formal and formal representations. Requirements analysis process; analysis patterns. Requirements specification techniques. Relation to architecture and user interface design; traceability of requirements. ",
+        "code": "CISC 121",
+        "title": "Introduction to Computing Science I",
+        "description": "Introduction to design, analysis, and implementation of algorithms. Recursion, backtracking, and exits. Linear data structures (stacks and queues). Elementary searching and sorting. Order-of-magnitude complexity. Documentation, iterative program development, translating natural language to code, testing and debugging. ",
         "terms": [
-            "winter"
+            "fall",
+            "winter",
+            "summer"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-423"
-    },
-    {
-        "code": "CISC 425",
-        "title": "Advanced User Interface Design",
-        "description": "Advanced user-interface styles such as eye-tracking input, digital desks, wearable computing, ubiquitous and context-aware computing, and tangible interfaces. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-425"
-    },
-    {
-        "code": "CISC 426",
-        "title": "Real-Time Systems",
-        "description": "Design and implementation of real-time embedded applications. Specifying timing properties: formal and semi-formal methods; soft real-time versus hard real-time. Design notations; language constructs. Real-time operating systems. Abstract device interfaces. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-426"
-    },
-    {
-        "code": "CISC 432",
-        "title": "Advanced Data Management Systems",
-        "description": "Storage and representation of \"big data\", which are large, complex, structured or unstructured data sets. Provenance, curation, integration, indexing and querying of data. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-432"
-    },
-    {
-        "code": "CISC 434",
-        "title": "Distributed Systems",
-        "description": "Distributed systems goals, characteristics, and architectures. Processes: models, inter-process communication and coordination. Name services. Consistency and replication. Fault tolerance: design for reliable communication and recovery. Security. Development paradigms based on data types: object, file, and web-based systems. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-434"
-    },
-    {
-        "code": "CISC 437",
-        "title": "Performance Analysis",
-        "description": "Analytic and empirical evaluation of the performance of software systems. Performance modeling. Experimental design and statistical techniques for empirical performance analysis. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-437"
-    },
-    {
-        "code": "CISC 447",
-        "title": "Introduction to Cybersecurity",
-        "description": "An introduction to cybersecurity covering a wide range of vulnerabilities, attacks, and defense mechanisms in individual computers, networks, the Internet and the Web and applications that use them, and storage and computational clouds. The human side of cybersecurity, and the legal and ethical constraints on both attack and defense. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-447"
-    },
-    {
-        "code": "CISC 448",
-        "title": "Software Reliability and Security",
-        "description": "Software dependability and other related concepts, software process models and methods for reliable software. Software reliability engineering process, software fault tolerance and run-time monitoring. Software security engineering process, secure software design, program security vulnerabilities and software security testing ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-448"
-    },
-    {
-        "code": "CISC 451",
-        "title": "Topics in Data Analytics",
-        "description": "Content will vary from year to year; typical areas covered may include: tools for large scale data analytics (Hadoop, Spark), data analytics in the cloud, properties of large scale social networks, applications of data analytics in security. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-451"
+        "prerequisites": []
     },
     {
         "code": "CISC 452",
@@ -392,158 +485,20 @@
         "terms": [
             "fall"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-452"
+        "prerequisites": [
+            "CISC-235"
+        ]
     },
     {
-        "code": "CISC 453",
-        "title": "Topics in Artificial Intelligence",
-        "description": "Investigation of selected areas of artificial intelligence research. Possible topics include natural language understanding, computational perception, planning, learning, and neurocomputing. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-453"
-    },
-    {
-        "code": "CISC 454",
-        "title": "Graphics (A)",
-        "description": "Introduction to computer graphics, including a review of current hardware; modelling and transformations in two and three dimensions; visual realism: perspective, hidden surface elimination, and shading; colour models; applications in several fields. James Stewart. ",
+        "code": "CISC 335",
+        "title": "Computer Networks",
+        "description": "Fundamental concepts in the design and implementation of computer communication networks, protocols, and applications.\u00a0Overview of network architectures; applications; network programming interfaces (e.g., sockets); transport; congestion; routing and data link protocols; addressing; local area networks; wireless networks, mobility management;\u00a0security. ",
         "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-454"
-    },
-    {
-        "code": "CISC 455",
-        "title": "Evolutionary Optimization and Learning",
-        "description": "Building, applying and studying algorithms based on the Darwinian principles of natural evolution. A creative approach to AI able to create novel solutions. Genetic algorithms, evolution strategies, and genetic programming. Application to optimization and learning problems. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-455"
-    },
-    {
-        "code": "CISC 457",
-        "title": "Image Processing and Computer",
-        "description": "Introduction to fundamental concepts and applications in image processing and computer vision. Topics include image acquisition, convolution, Discrete Fourier Transform, image enhancement, edge detection, segmentation, image registration, human contrast perception, colour perception and reproduction, stereo vision. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-457"
-    },
-    {
-        "code": "CISC 458",
-        "title": "Programming Language Processors (S)",
-        "description": "Introduction to the systematic construction of a compiler: grammars and languages, scanners, top-down and bottom-up parsing, runtime organization, symbol tables, internal representations; Polish notation, syntax trees, semantic routines, storage allocation, code generation, interpreters. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-458"
-    },
-    {
-        "code": "CISC 462",
-        "title": "Computability and Complexity",
-        "description": "Turing machines and other models of computability such as \u00b5-recursive functions and random-access machines. Undecidability. Recursive and recursively enumerable sets. Church-Turing thesis. Resource-bounded complexity. Complexity comparisons among computational models. Reductions. Complete problems for complexity classes. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-462"
-    },
-    {
-        "code": "CISC 465",
-        "title": "Semantics of Programming Languages",
-        "description": "Specifying syntax and semantics; operational and denotational semantics. Lambda calculi, type systems and logical foundations. Meta-theoretic properties. Semantics of imperative languages. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-465"
-    },
-    {
-        "code": "CISC 466",
-        "title": "Algorithms II",
-        "description": "A continuation of CISC 365/3.0. Lower bound theory. Average-case analysis of algorithms. Approximation algorithms. Probabilistic algorithms. Parallel algorithms. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-466"
-    },
-    {
-        "code": "CISC 467",
-        "title": "Fuzzy Logic",
-        "description": "History of fuzzy theory; fundamental concepts of fuzzy theory: sets, relations, and logic operators. Approximate reasoning, fuzzy inference, possibility theory. Separation from probability. Fuzzy control systems. Fuzzy pattern recognition. Advanced topics may include fuzzy expert systems, financial systems, graph theory, optimization. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-467"
-    },
-    {
-        "code": "CISC 468",
-        "title": "Cryptography",
-        "description": "Fundamentals of cryptographic algorithms: secure pseudorandom number generators, hash functions, symmetric-key cryptography (stream ciphers, block ciphers); public-key cryptography (encryption and decryption, digital signatures, key agreement). Applications of cryptography to secure communication protocols and systems. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-468"
-    },
-    {
-        "code": "CISC 471",
-        "title": "Computational Biology",
-        "description": "Advanced computational approaches to the problems in molecular biology. Techniques and algorithms for sequence analysis and alignment; molecular databases; protein structure prediction and molecular data mining. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-471"
-    },
-    {
-        "code": "CISC 472",
-        "title": "Medical Informatics",
-        "description": "Current topics in the application of information technology to medical image computing and its use in image-guided medical interventions. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-472"
-    },
-    {
-        "code": "CISC 473",
-        "title": "Deep Learning",
-        "description": "Design of deep neural networks based on leading-edge algorithms such as Restricted Boltzmann Machines, Recurrent Neural Networks, Convolutional Neural Networks, Long-Short Term Machines. Autoencoding as a clustering technique. Applications to prediction problems in natural language and images. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-473"
-    },
-    {
-        "code": "CISC 474",
-        "title": "Reinforcement Learning",
-        "description": "Formal and heuristic approaches to problem-solving, planning, knowledge representation and reasoning, Markov decision processes, dynamic programming, temporal-difference learning, Monte Carlo learning, function approximation, integration of learning and planning. Implementing simple examples of logical reasoning, clustering or classification. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-474"
-    },
-    {
-        "code": "CISC 486",
-        "title": "Game Development",
-        "description": "An introduction to 'engines' used in networked 3-dimensional games. Topics include game-engine architecture and components providing 3-dimensional rendering, physics simulation, sound, artificial intelligence and networking services. ",
-        "terms": [
-            "fall"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-486"
-    },
-    {
-        "code": "CISC 490",
-        "title": "Topics in Computing Science I",
-        "description": "Content varies. Not offered every year. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-490"
-    },
-    {
-        "code": "CISC 491",
-        "title": "Topics in Computing Science II",
-        "description": "Content varies. Not offered every year. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-491"
-    },
-    {
-        "code": "CISC 492",
-        "title": "Topics in Computing III",
-        "description": "Content varies. Not offered every year. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-492"
-    },
-    {
-        "code": "CISC 495",
-        "title": "Software Evolution",
-        "description": "While working in groups, students will participate in the evolution of a software artifact. Elements of a software life cycle are examined in detail: requirements analysis, design recovery, refactoring, documentation, version, and configuration management. ",
-        "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-495"
+        "prerequisites": [
+            "CISC-324"
+        ]
     },
     {
         "code": "CISC 496",
@@ -552,55 +507,9 @@
         "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-496"
-    },
-    {
-        "code": "CISC 497",
-        "title": "Social, Ethical and Legal Issues in Computing",
-        "description": "A wide range of topics of current importance in\u00a0computing, including technical issues,\u00a0professional questions, and moral and ethical decisions. Students make presentations, deliver papers, and engage in discussion. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-497"
-    },
-    {
-        "code": "CISC 498",
-        "title": "Information Technology Project",
-        "description": "Topic selected under the supervision of a faculty member. Emphasis is on the application of software engineering techniques to the development of a substantial software system. Group work, oral presentation, participation in design and code review meetings, and delivery of complete software specification and design are required. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-498"
-    },
-    {
-        "code": "CISC 499",
-        "title": "Advanced Undergraduate Project",
-        "description": "Students must make a project proposal and secure a supervisor prior to enrolling in this course. Emphasis may be on the development of a large program, or on more theoretical issues. Independent research, an oral presentation, and a written report are required. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-499"
-    },
-    {
-        "code": "CISC 500",
-        "title": "Undergraduate Thesis",
-        "description": "Individual research project under the supervision of a School of Computing faculty member. Evaluation is based on an oral presentation and a written thesis. It is the responsibility of the student to make a research proposal and secure a supervisor prior to enrolling in the course. ",
-        "terms": [
-            "fall",
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/CISC-500"
-    },
-    {
-        "code": "COCA 201",
-        "title": "Introduction to Computing and the Creative Arts",
-        "description": "A multidisciplinary studio-oriented overview of computer-based applications in Art, Music, Drama and Film. History of human-computer interaction. Critical and philosophical issues. Animation. Virtual reality. Computer-aided design. Computer games. Enrollment is limited. ",
-        "terms": [
-            "winter"
-        ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COCA-201"
+        "prerequisites": [
+            "CISC-486"
+        ]
     },
     {
         "code": "COGS 100",
@@ -610,7 +519,24 @@
             "fall",
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COGS-100"
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 486",
+        "title": "Game Development",
+        "description": "An introduction to 'engines' used in networked 3-dimensional games. Topics include game-engine architecture and components providing 3-dimensional rendering, physics simulation, sound, artificial intelligence and networking services. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-226",
+            "CISC-322",
+            "CISC-326",
+            "CISC-324",
+            "MATH-110",
+            "MATH-111",
+            "MATH-112"
+        ]
     },
     {
         "code": "COGS 201",
@@ -619,14 +545,47 @@
         "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COGS-201"
+        "prerequisites": [
+            "COGS-100",
+            "PSYC-100"
+        ]
     },
     {
-        "code": "COGS 300",
-        "title": "Programming Cognitive Models",
-        "description": "Importance and challenges of building cognitive models; steps of model building, programming simple models using computational and statistical techniques and tools such as Matlab. Recent models from research publications. ",
+        "code": "CISC 457",
+        "title": "Image Processing and Computer",
+        "description": "Introduction to fundamental concepts and applications in image processing and computer vision. Topics include image acquisition, convolution, Discrete Fourier Transform, image enhancement, edge detection, segmentation, image registration, human contrast perception, colour perception and reproduction, stereo vision. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "MATH-110",
+            "MATH-111",
+            "MATH-112",
+            "MATH-120",
+            "MATH-121",
+            "MATH-123",
+            "MATH-124",
+            "MATH-126",
+            "CISC-124"
+        ]
+    },
+    {
+        "code": "CISC 462",
+        "title": "Computability and Complexity",
+        "description": "Turing machines and other models of computability such as \u00b5-recursive functions and random-access machines. Undecidability. Recursive and recursively enumerable sets. Church-Turing thesis. Resource-bounded complexity. Complexity comparisons among computational models. Reductions. Complete problems for complexity classes. ",
         "terms": [],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COGS-300"
+        "prerequisites": [
+            "CISC-223"
+        ]
+    },
+    {
+        "code": "CISC 151",
+        "title": "Elements of Computing with Data Analytics",
+        "description": "Introduction to algorithms: their definition, design, coding, and execution on computers, with applications drawn from data analytics, including simple prediction and clustering. Intended for students who have no programming experience. All or most assignment work will be completed during lab time. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
     },
     {
         "code": "COGS 400",
@@ -635,15 +594,188 @@
         "terms": [
             "fall"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COGS-400"
+        "prerequisites": [
+            "CISC-235",
+            "ELEC-278"
+        ]
     },
     {
-        "code": "COGS 499",
-        "title": "Advanced Undergraduate Project",
-        "description": "Topic selected under the supervision of a faculty member from CISC, LING, PHIL, or PSYC. Emphasis may be on experimental, theoretical, or computer implementation. Independent research, an oral presentation, and a written report are required. The student must make a project proposal and secure a supervisor prior to enrolling in the course. ",
+        "code": "CISC 466",
+        "title": "Algorithms II",
+        "description": "A continuation of CISC 365/3.0. Lower bound theory. Average-case analysis of algorithms. Approximation algorithms. Probabilistic algorithms. Parallel algorithms. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-365"
+        ]
+    },
+    {
+        "code": "CISC 455",
+        "title": "Evolutionary Optimization and Learning",
+        "description": "Building, applying and studying algorithms based on the Darwinian principles of natural evolution. A creative approach to AI able to create novel solutions. Genetic algorithms, evolution strategies, and genetic programming. Application to optimization and learning problems. ",
         "terms": [
             "winter"
         ],
-        "link": "https://www.cs.queensu.ca/undergraduate/courses/COGS-499"
+        "prerequisites": [
+            "CISC-365",
+            "STAT-263"
+        ]
+    },
+    {
+        "code": "CISC 495",
+        "title": "Software Evolution",
+        "description": "While working in groups, students will participate in the evolution of a software artifact. Elements of a software life cycle are examined in detail: requirements analysis, design recovery, refactoring, documentation, version, and configuration management. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 453",
+        "title": "Topics in Artificial Intelligence",
+        "description": "Investigation of selected areas of artificial intelligence research. Possible topics include natural language understanding, computational perception, planning, learning, and neurocomputing. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-352"
+        ]
+    },
+    {
+        "code": "CISC 448",
+        "title": "Software Reliability and Security",
+        "description": "Software dependability and other related concepts, software process models and methods for reliable software. Software reliability engineering process, software fault tolerance and run-time monitoring. Software security engineering process, secure software design, program security vulnerabilities and software security testing ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-327",
+            "CMPE-327"
+        ]
+    },
+    {
+        "code": "CISC 500",
+        "title": "Undergraduate Thesis",
+        "description": "Individual research project under the supervision of a School of Computing faculty member. Evaluation is based on an oral presentation and a written thesis. It is the responsibility of the student to make a research proposal and secure a supervisor prior to enrolling in the course. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 454",
+        "title": "Graphics (A)",
+        "description": "Introduction to computer graphics, including a review of current hardware; modelling and transformations in two and three dimensions; visual realism: perspective, hidden surface elimination, and shading; colour models; applications in several fields. James Stewart. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-235",
+            "MATH-110",
+            "MATH-111",
+            "MATH-112"
+        ]
+    },
+    {
+        "code": "CISC 499",
+        "title": "Advanced Undergraduate Project",
+        "description": "Students must make a project proposal and secure a supervisor prior to enrolling in this course. Emphasis may be on the development of a large program, or on more theoretical issues. Independent research, an oral presentation, and a written report are required. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 490",
+        "title": "Topics in Computing Science I",
+        "description": "Content varies. Not offered every year. ",
+        "terms": [],
+        "prerequisites": []
+    },
+    {
+        "code": "COGS 300",
+        "title": "Programming Cognitive Models",
+        "description": "Importance and challenges of building cognitive models; steps of model building, programming simple models using computational and statistical techniques and tools such as Matlab. Recent models from research publications. ",
+        "terms": [],
+        "prerequisites": [
+            "COGS-201",
+            "PSYC-221",
+            "PSYC-202"
+        ]
+    },
+    {
+        "code": "CISC 451",
+        "title": "Topics in Data Analytics",
+        "description": "Content will vary from year to year; typical areas covered may include: tools for large scale data analytics (Hadoop, Spark), data analytics in the cloud, properties of large scale social networks, applications of data analytics in security. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-333",
+            "CISC-351",
+            "CISC-372"
+        ]
+    },
+    {
+        "code": "CISC 471",
+        "title": "Computational Biology",
+        "description": "Advanced computational approaches to the problems in molecular biology. Techniques and algorithms for sequence analysis and alignment; molecular databases; protein structure prediction and molecular data mining. ",
+        "terms": [
+            "fall"
+        ],
+        "prerequisites": [
+            "CISC-352",
+            "CISC-365"
+        ]
+    },
+    {
+        "code": "CISC 458",
+        "title": "Programming Language Processors (S)",
+        "description": "Introduction to the systematic construction of a compiler: grammars and languages, scanners, top-down and bottom-up parsing, runtime organization, symbol tables, internal representations; Polish notation, syntax trees, semantic routines, storage allocation, code generation, interpreters. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-121",
+            "CISC-221",
+            "CISC-223"
+        ]
+    },
+    {
+        "code": "CISC 437",
+        "title": "Performance Analysis",
+        "description": "Analytic and empirical evaluation of the performance of software systems. Performance modeling. Experimental design and statistical techniques for empirical performance analysis. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-324",
+            "CISC-327"
+        ]
+    },
+    {
+        "code": "CISC 498",
+        "title": "Information Technology Project",
+        "description": "Topic selected under the supervision of a faculty member. Emphasis is on the application of software engineering techniques to the development of a substantial software system. Group work, oral presentation, participation in design and code review meetings, and delivery of complete software specification and design are required. ",
+        "terms": [
+            "fall",
+            "winter"
+        ],
+        "prerequisites": [
+            "CISC-322",
+            "CISC-326",
+            "CISC-325",
+            "CISC-327"
+        ]
+    },
+    {
+        "code": "COCA 201",
+        "title": "Introduction to Computing and the Creative Arts",
+        "description": "A multidisciplinary studio-oriented overview of computer-based applications in Art, Music, Drama and Film. History of human-computer interaction. Critical and philosophical issues. Animation. Virtual reality. Computer-aided design. Computer games. Enrollment is limited. ",
+        "terms": [
+            "winter"
+        ],
+        "prerequisites": []
+    },
+    {
+        "code": "CISC 282",
+        "title": "Fundamentals of Web Development",
+        "description": "This course surveys current best practices for implementing attractive, usable, secure and maintainable web applications. Other issues considered include: accessibility, platform and browser independence, licensing of intellectual property, scalability, user privacy, and using web technologies in mobile development. ",
+        "terms": [],
+        "prerequisites": [
+            "CISC-124"
+        ]
     }
 ]

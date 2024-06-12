@@ -13,6 +13,7 @@ export function FacultyDropdown({
   faculty: string;
   courses: Course[];
 }) {
+  console.log(typeof courses);
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="w-full">
@@ -41,10 +42,37 @@ function CourseButton({ course }: { course: Course }) {
   const score = useRef(Math.random() * 3 + 2);
   return (
     <div className="p-4 bg-brand-dark text-brand-white flex flex-col justify-center gap-2 h-full">
-      <h3 className="font-bold">{course.code}</h3>
+      <div className="flex gap-4 items-center">
+        <h3 className="font-bold">{course.code}</h3>
+        {course.terms.map((term: string, index: number) => {
+          return (
+            <div
+              key={index}
+              className="p-2 bg-brand-white text-brand-light border-2 border-brand-dark"
+            >
+              {term}
+            </div>
+          );
+        })}
+      </div>
       <h3>{course.title}</h3>
-      <Link href={"/universities/queens/courses/CISC-204"}>
-        <div>View prereqs, coreqs, and user reviews</div>
+      {course.prerequisites.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          Prerequisites:
+          {course.prerequisites.map((code: string, index: number) => {
+            return (
+              <div key={index} className="text-nowrap font-bold">
+                {code}
+              </div>
+            );
+          })}
+        </div>
+      )}
+      <Link
+        className="p-2 border-2 border-brand-white"
+        href={"/universities/queens/courses/CISC-204"}
+      >
+        <div>User reviews</div>
       </Link>
     </div>
   );

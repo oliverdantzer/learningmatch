@@ -4,7 +4,7 @@ import { FacultyDropdown } from "./coursesDropdown";
 export default function Professors() {
   return (
     <div className="w-full">
-      {["business", "computing"].map((faculty: string, index: number) => {
+      {Object.keys(coursesByFaculty).map((faculty: string, index: number) => {
         return (
           <FacultyDropdown
             key={index}
